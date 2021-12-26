@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+}
+.Logo{
+    padding: 3px;
+    width: 150px;
+    padding-top: 10px;
+    margin-left: -100px;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+    font-size: 20px;
+}
+nav ul{
+    float: right;
+}
+.flex a:hover{
+    color: #f95031;
+}
+.flex1 a:hover{
+    color: #f95031;
+}
+.flash a:hover{
+    color: #f95031;
+}
+.social a:hover{
+    color: #f95031;
+    padding-left: 10px;
+}
+
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serifHelvetica',Tahoma,Arial,Sans-serif;
+    padding: 10px;
+    word-spacing: -2px;
+    white-space: nowrap;
+    margin-left: -10px;
+    color: #252f7b;
+    position: relative;bottom: 10px;
+    
+  
+    
+}
+.flex1{
+    margin-right: -80px;
+    display: inline-block;
+    
+}
+.flex{
+    margin-left: 350px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.body{
+    background-color:#eff0f5;
+    height: 600px;
+    background-size: cover;
+}
+.fruit{
+    position: relative;top: 10px;
+    margin-left: 50px;  
+    
+}
+.shirt{
+    position: relative;bottom: 740px;
+    margin-left: 980px;  
+    
+}
+.baby{
+    position: relative;bottom: 490px;
+    margin-left: 670px;
+}
+.plant{
+    position: relative;bottom: 240px;
+    margin-left: 360px;  
+    
+}
+.pets{
+ text-decoration: none;
+ display: inline-block;
+ list-style: none;
+
+}
+.flash img{
+height: 210px;
+}
+h1{
+    position: relative;top: 200px;
+    margin-left: 600px;
+}
+.flash{
+    background-color:#ffffff;
+    position: relative;top: 115px;
+    padding: 25px 100px;
+    margin: 25px 50px;
+    height: 320px;
+    
+}
+.footerlaza{
+    margin-left: 1020px;
+    position: relative;top: 40px;
+}
+.follow{
+    margin-left: 480px;
+    position: relative;top: 15px;
+    
+}
+.social{
+    margin-left: 480px;
+    position: relative;top: 25px;  
+    
+}
+
+

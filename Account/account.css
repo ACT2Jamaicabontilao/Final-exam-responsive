@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,Tahoma,Arial,Sans-serif;
+    
+}
+.Logo{
+    padding: 3px;
+    width: 150px;
+    padding-top: 10px;
+    margin-left: -100px;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #ffffff;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+    font-size: 20px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serifHelvetica',Tahoma,Arial,Sans-serif;
+    padding: 10px;
+    word-spacing: -2px;
+    white-space: nowrap;
+    margin-left: -10px;
+    color: #252f7b;
+    position: relative;bottom: 10px;
+    
+  
+    
+}
+nav .categories ul li a:hover{
+    background-color:#f95031;
+    z-index: 1;
+}
+.flash a:hover{
+    color: #f95031;
+}
+.social a:hover{
+    color: #f95031;
+    padding-left: 10px;
+}
+.flex a:hover{
+    color: #f95031;
+}
+.flex1 a:hover{
+    color: #f95031;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.flex1{
+    margin-right: -80px;
+    display: inline-block;
+    
+}
+.flex{
+    margin-left: 350px;
+}
+
+.body{
+    background-color:#eff0f5;
+    height: 600px;
+    background-size: cover;
+}
+h2{
+    margin-left: 650px;
+    position: relative;top: 130px;
+    color: #424242;
+    font-size: 30px;
+}
+.borders{
+    background-color:#ffffff;
+    position: relative;top: 135px;
+    padding: 25px 100px;
+    margin: 25px 50px;
+    height: 150px;
+    
+}
+.border1{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-left: -50px;
+    line-height: 2;
+    position: relative;top: 2px;
+    
+}
+.border2{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    line-height: 2;
+    position: relative;top: 2px;
+    margin-left: 200px;
+    
+}
+.footerlaza{
+    margin-left: 1020px;
+    position: relative;top: 40px;
+}
+.follow{
+    margin-left: 480px;
+    position: relative;top: 15px;
+    
+}
+.social{
+    margin-left: 480px;
+    position: relative;top: 25px;  
+    
+}
+.accountedit{
+    position: relative;top: 160px;
+    margin-left: 1395px;
+}
